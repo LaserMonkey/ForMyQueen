@@ -1,0 +1,212 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: "XingCao", "Helvetica", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+nav {
+	width: 100%;
+	height: 32px;
+	background-color: white;
+}
+.channel-title {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid white;
+	background-color: white;
+}
+section {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.brand-head {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 1050px;
+}
+.brand-nav {
+	margin: 0 auto;
+	width: 1050px;
+	height: 112px;
+	background-color: #f8f8f8;
+}
+.mailer {
+	position: relative;
+	width: 650px;
+	height: 350px;
+	margin: 0 auto;
+	background-color: orange;
+	background-image: linear-gradient(-45deg, 
+		rgba(250, 255, 240, 1) 2%, 
+		lightblue 2%,lightblue 4%, 
+		rgba(250, 255, 240, 1) 4%, rgba(250, 255, 240, 1) 6%,
+		transparent 6%, transparent 8%, 
+		rgba(250, 255, 240, 1) 8%, rgba(250, 255, 240, 1) 10%, 
+		lightblue 10%,lightblue 12%, 
+		rgba(250, 255, 240, 1) 12%, rgba(250, 255, 240, 1) 14%,
+		transparent 14%, transparent 16%, 
+		rgba(250, 255, 240, 1) 16%, rgba(250, 255, 240, 1) 18%, 
+		lightblue 18%,lightblue 20%, 
+		rgba(250, 255, 240, 1) 20%, rgba(250, 255, 240, 1) 22%,
+		transparent 22%, transparent 24%, 
+		rgba(250, 255, 240, 1) 24%, rgba(250, 255, 240, 1) 26%, 
+		lightblue 26%,lightblue 28%, 
+		rgba(250, 255, 240, 1) 28%, rgba(250, 255, 240, 1) 30%,
+		transparent 30%, transparent 32%, 
+		rgba(250, 255, 240, 1) 32%, rgba(250, 255, 240, 1) 34%, 
+		lightblue 34%,lightblue 36%, 
+		rgba(250, 255, 240, 1) 36%, rgba(250, 255, 240, 1) 38%,
+		transparent 38%, transparent 40%, 
+		rgba(250, 255, 240, 1) 40%, rgba(250, 255, 240, 1) 42%, 
+		lightblue 42%,lightblue 44%, 
+		rgba(250, 255, 240, 1) 44%, rgba(250, 255, 240, 1) 46%,
+		transparent 46%, transparent 48%, 
+		rgba(250, 255, 240, 1) 48%, rgba(250, 255, 240, 1) 50%, 
+		lightblue 50%,lightblue 52%, 
+		rgba(250, 255, 240, 1) 52%, rgba(250, 255, 240, 1) 54%,
+		transparent 54%, transparent 56%, 
+		rgba(250, 255, 240, 1) 56%, rgba(250, 255, 240, 1) 58%, 
+		lightblue 58%,lightblue 60%, 
+		rgba(250, 255, 240, 1) 60%, rgba(250, 255, 240, 1) 62%,
+		transparent 62%, transparent 64%, 
+		rgba(250, 255, 240, 1) 64%, rgba(250, 255, 240, 1) 66%, 
+		lightblue 66%,lightblue 68%, 
+		rgba(250, 255, 240, 1) 68%, rgba(250, 255, 240, 1) 70%,
+		transparent 70%, transparent 72%, 
+		rgba(250, 255, 240, 1) 72%, rgba(250, 255, 240, 1) 74%, 
+		lightblue 74%,lightblue 76%, 
+		rgba(250, 255, 240, 1) 76%, rgba(250, 255, 240, 1) 78%,
+		transparent 78%, transparent 80%, 
+		rgba(250, 255, 240, 1) 80%, rgba(250, 255, 240, 1) 82%, 
+		lightblue 82%,lightblue 84%, 
+		rgba(250, 255, 240, 1) 84%, rgba(250, 255, 240, 1) 86%,
+		transparent 86%, transparent 88%, 
+		rgba(250, 255, 240, 1) 88%, rgba(250, 255, 240, 1) 90%, 
+		lightblue 90%,lightblue 92%, 
+		rgba(250, 255, 240, 1) 92%, rgba(250, 255, 240, 1) 94%,
+		transparent 94%, transparent 96%, 
+		rgba(250, 255, 240, 1) 96%, rgba(250, 255, 240, 1) 98%, 
+		lightblue 98%,lightblue);
+	z-index: 1;
+}
+.mailer-big-triangle {
+	position: absolute;
+	top: 0;
+	right: 170px;
+    width: 0;
+    height: 350px;
+    background-color: white;
+    z-index: 3;
+}
+.mailer-big-triangle:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+    border-top: 350px solid white;
+    border-left: 90px solid transparent;*/
+}
+.mailer-big-triangle:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -90px;
+    border-top: 350px solid transparent;
+    border-left: 90px solid white;
+}
+.mailer-square {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 363px;
+	height: 330px;
+	background-color: rgba(250, 255, 240, 1);
+	z-index: 5;
+}
+.mailer-square:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -90px;
+    width: 0;
+    height: 0;
+    border-top: 330px solid transparent;
+    border-left: 90px solid rgba(250, 255, 240, 1);
+}
+.mailer-square-right {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 110px;
+	height: 330px;
+	background-color: rgba(250, 255, 240, 1);
+	z-index: 2;
+}
+.mailer-square-right:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 110px;
+    width: 0;
+    height: 0;
+    border-top: 330px solid rgba(250, 255, 240, 1);
+    border-left: 90px solid transparent;
+}
+.letter {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 500px;
+	height: 310px;
+	background-color: blanchedalmond;
+	cursor: pointer;
+	z-index: 4;
+	transition: width 0.6s;
+}
+.letter:hover {
+	width: 610px;
+}
+.stamp {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+	padding: 5px;
+	background: #f0f0f0;
+	/*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);*/
+	background: radial-gradient( transparent 0px, transparent 4px, #e0e0e0 4px, #e0e0e0);
+	background-size: 10px 10px;
+	background-position: -5px -5px;
+	z-index: 2;
+}
+.stamp:before {
+	content: 'KIWI';
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	font: bold 12px arial;
+	color: white;
+	opacity: 0.75;
+	line-height: 100%;
+}
+.stamp-img {
+	width: 80px;
+	height: 60px;
+}
+.seal {
+	position: absolute;
+	bottom: -45px;
+	left: -40px;
+	width: 100px;
+	height: 100px;
+	opacity: 0.7;
+	transform: rotate(-20deg);
+}
+embed {
+	display: block;
+	margin: 0 auto;
+}
